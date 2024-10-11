@@ -1,0 +1,50 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "minecraft:item/iron_pickaxe"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 0
+    },
+      "model": "minecraft:item/broken_iron_pickaxe"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1
+    },
+      "model": "minecraft:item/iron_pickaxe_custom"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2
+    },
+      "model": "minecraft:item/steel_pickaxe"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 3
+    },
+      "model": "minecraft:item/steelsand_pickaxe"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 4
+    },
+      "model": "minecraft:item/broken_sunstone_pickaxe"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 5
+    },
+      "model": "minecraft:item/sunstone_pickaxe"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 6
+    },
+      "model": "minecraft:item/emberstone_pickaxe"
+    }
+  ]
+}

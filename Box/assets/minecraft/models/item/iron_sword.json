@@ -1,0 +1,50 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "minecraft:item/iron_sword"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 0
+    },
+      "model": "minecraft:item/iron_claymore"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1
+    },
+      "model": "minecraft:item/steel_sword"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2
+    },
+      "model": "minecraft:item/reinforced_steel_sword"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 3
+    },
+      "model": "minecraft:item/steelsand_sword"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 4
+    },
+      "model": "minecraft:item/sunstone_dagger"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 5
+    },
+      "model": "minecraft:item/emberstone_greatsword"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 6
+    },
+      "model": "minecraft:item/emberstone_scythe"
+    }
+  ]
+}

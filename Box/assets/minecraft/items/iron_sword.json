@@ -1,0 +1,62 @@
+{
+  "model": {
+    "type": "minecraft:range_dispatch",
+    "property": "minecraft:custom_model_data",
+    "index": 0,
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/iron_sword"
+    },
+    "entries": [
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/iron_claymore"
+        },
+        "threshold": 0
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/steel_sword"
+        },
+        "threshold": 1
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/reinforced_steel_sword"
+        },
+        "threshold": 2
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/steelsand_sword"
+        },
+        "threshold": 3
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/sunstone_dagger"
+        },
+        "threshold": 4
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/emberstone_greatsword"
+        },
+        "threshold": 5
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/emberstone_scythe"
+        },
+        "threshold": 6
+      }
+    ]
+  }
+}

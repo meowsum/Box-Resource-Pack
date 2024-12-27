@@ -1,0 +1,62 @@
+{
+  "model": {
+    "type": "minecraft:range_dispatch",
+    "property": "minecraft:custom_model_data",
+    "index": 0,
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/iron_pickaxe"
+    },
+    "entries": [
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/broken_iron_pickaxe"
+        },
+        "threshold": 0
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/iron_pickaxe_custom"
+        },
+        "threshold": 1
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/steel_pickaxe"
+        },
+        "threshold": 2
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/steelsand_pickaxe"
+        },
+        "threshold": 3
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/broken_sunstone_pickaxe"
+        },
+        "threshold": 4
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/sunstone_pickaxe"
+        },
+        "threshold": 5
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/emberstone_pickaxe"
+        },
+        "threshold": 6
+      }
+    ]
+  }
+}

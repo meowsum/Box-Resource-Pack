@@ -1,0 +1,14 @@
+{
+    "providers":[{
+  
+      "file":"pics/box.png",
+  
+      "chars":["日"],
+  
+      "ascent": 50,
+  
+      "height": 50,
+  
+      "type":"bitmap"
+    }]
+  }

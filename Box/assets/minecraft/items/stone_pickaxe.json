@@ -1,0 +1,27 @@
+{
+  "model": {
+    "type": "minecraft:range_dispatch",
+    "property": "minecraft:custom_model_data",
+    "index": 0,
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/stone_pickaxe"
+    },
+    "entries": [
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/broken_stone_pickaxe"
+        },
+        "threshold": 0
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/stone_pickaxe_custom"
+        },
+        "threshold": 1
+      }
+    ]
+  }
+}
